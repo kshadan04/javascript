@@ -41,3 +41,23 @@ changeText(heading1,"one","red",1000)
         })
     })
   })
+
+  changeText(heading1,"one","red",1000)
+  .then(()=>{
+    return changeText(heading2,"two","yellow",1000)
+  })
+  .then(()=>{
+    return changeText(heading3,"three","green",1000)
+  })
+  .then(()=>{
+    return changeText(heading4,"four","brown",1000)
+  })
+  .then(()=>{
+    return changeText(heading5,"five","violet",1000)
+  })
+  .then(()=>{
+    return changeText(heading6,"six","blue",1000)
+  })
+  .then(()=>{
+    return changeText(heading7,"seven","Orange",1000)
+  });
